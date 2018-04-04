@@ -1,4 +1,4 @@
-var row, col, color;
+let row, col, color;
 
 $('#sizePicker').submit(function(evt){
     evt.preventDefault();
