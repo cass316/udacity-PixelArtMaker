@@ -16,7 +16,7 @@ function makeGrid(height,width) {
     }
     $('td').click(function gridColor(){
       color = $('#colorPicker').val();
-      $('td').css('background-color' , color);
+      $('this').css('background-color' , color);
     })
 
 }
